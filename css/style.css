@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/*Founders-Organizers Buttons*/
+.wrapper {
+    font-family: 'Poppins', sans-serif;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*Organizers categories buttons*/
+.btns_group,
+.btns_group_2 {
+    font-family: 'Poppins', sans-serif;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*Web-logo*/
+.logo,
+.logo1,
+.logo2 {
+    position: absolute;
+    left: 45px;
+    top: 15px;
+}
+
+h1 {
+    position: absolute;
+    top: -300px;
+    left: 75px;
+
+}
+
+
+/*Styling for Founders-Organizers buttons in index page*/
+#btn1,
+#btn2 {
+    background-color: white;
+    width: 300px;
+    height: 160px;
+    margin-right: 70px;
+
+    font-size: 30px;
+
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    border: 2px solid #3F5DF9;
+    transition-duration: 0.3s;
+}
+/*Styling for Organizers categories buttons in Organizers page*/
+#btn3,
+#btn4,
+#btn5,
+#btn6,
+#btn7,
+#btn8 {
+    background-color: white;
+    width: 300px;
+    height: 160px;
+    margin-right: 70px;
+    margin-bottom: 25px;
+    font-size: 30px;
+
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    border: 2px solid #3F5DF9;
+    transition-duration: 0.3s;
+}
+/*Accordion in virtual_programm page*/
+.accordion {
+    margin-top: 110px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    position: inherit;
+
+}
+/*Return_page links in all pages (eg. Homepage>Organizers)*/
+.return_page_1,
+.return_page_2,
+.return_page_3 {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 15px;
+    margin-top: 75px;
+}
+
+/*a tags and styling in all pages*/
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: royalblue;
+    text-decoration: none;
+}
+
+/*All buttons hover*/
+#btn1:hover,
+#btn2:hover,
+#btn3:hover,
+#btn4:hover,
+#btn5:hover,
+#btn6:hover,
+#btn7:hover,
+#btn8:hover,
+#btn9:hover {
+    background-color: #3F5DF9;
+    color: white;
+}
+
+
+.column {
+ position: relative;
+}
