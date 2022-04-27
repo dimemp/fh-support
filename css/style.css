@@ -2,6 +2,10 @@
 
 /*Founders-Organizers Buttons*/
 
+.DocSearch {
+    width: 200px;
+}
+
 .accordion {
     margin-bottom: 30px;
 }
@@ -37,6 +41,7 @@
 .logo,
 .logo1,
 .logo2 {
+    display: flex;
     padding-left: 45px;
     padding-right: 45px;
     padding-top: 15px;
