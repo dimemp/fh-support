@@ -1,0 +1,8 @@
+{
+    "index_name": "DocSearching",
+    "start_urls": ["https://dimemp.github.io/fh-support/"],
+    "selectors": {
+        "lvl0": "#accordionExample .accordion-item .accordion-header .accordion-button",
+        "text": "#accordionExample .accordion-item .accordion-header .accordion-button"
+    }
+}
