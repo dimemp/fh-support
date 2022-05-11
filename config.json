@@ -1,6 +1,6 @@
 {
     "index_name": "DocSearching",
-    "start_urls": ["https://dimemp.github.io/fh-support/"],
+    "start_urls": ["https://support.thefounderhood.com/"],
     "selectors": {
         "lvl0": "js-post-title",
         "lvl1": ".breadcrumb",
