@@ -1,0 +1,108 @@
+/*-- Docsearch custom css --*/
+
+.DocSearch {
+    width: 100%;
+    margin: 0;
+}
+
+.DocSearch-Button {
+    background-color: #fff;
+    height: 3rem;
+    padding: 1rem 1.6rem;
+    color: #676e8b;
+    border-radius: .25rem;
+}
+
+.DocSearch-Button-Keys {
+    display: none;
+}
+
+.DocSearch-Button .DocSearch-Search-Icon {
+    color: #676e8b;
+}
+
+.DocSearch-Button:active, 
+.DocSearch-Button:focus, 
+.DocSearch-Button:hover {
+    box-shadow: inset 0 0 0 2px #1652f0;
+    color: #676e8b;
+}
+
+.DocSearch-Modal {
+    background: #f7f8fa;
+    border-radius: .25rem;
+}
+
+.DocSearch-Input::placeholder {
+    color: #a5a5a5;
+}
+
+.DocSearch-MagnifierLabel, 
+.DocSearch-Reset {
+    color: #1652f0;
+}
+
+.DocSearch-Input {
+    color: #676e8b;
+    font-size: 1.1rem;
+}
+
+.DocSearch-Form {
+    border-radius: .25rem;
+    height: 2.7rem;
+    box-shadow: inset 0 0 0 2px #1652f0;
+}
+
+.DocSearch-Dropdown {
+    padding-bottom: .6rem;
+}
+
+.DocSearch-Hit-Container {
+  color: #676e8b;
+}
+
+.DocSearch-Hits mark {
+    color: #1652f0;
+}
+
+.DocSearch-Hit[aria-selected="true"] a {
+  background-color: #1652f0;
+}
+
+.DocSearch-Help, 
+.DocSearch-Label {
+    color: #676e8b;
+}
+
+.DocSearch-Footer,
+.DocSearch-HitsFooter {
+    display: none;
+}
+
+
+/*-- Categories & posts custom css --*/
+
+.list-group-item { 
+    padding: 1rem .5rem 1rem 0rem;
+    color: #1b1f29;
+    border: 1px solid #f1f2f5;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    outline: 0;
+    color: #053FBD;
+}
+
+.img-responsive {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    max-width: 100%;
+    height: auto;
+}

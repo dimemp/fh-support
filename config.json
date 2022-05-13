@@ -1,9 +1,10 @@
 {
     "index_name": "DocSearching",
-    "start_urls": ["https://dimemp.github.io/fh-support/"],
+    "start_urls": ["https://support.thefounderhood.com/"],
     "selectors": {
-        "lvl0": "a button",
-        "lvl1": "#accordionExample .accordion-item .accordion-header .accordion-button",
-        "text": "#accordionExample .accordion-item .accordion-collapse p"
+        "lvl0": "js-post-title",
+        "lvl1": ".breadcrumb",
+        "lvl2": ".js-text-post h1",
+        "text": ".js-text-post p"
     }
 }
