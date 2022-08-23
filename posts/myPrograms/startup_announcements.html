@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html class="h-100" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Support center of Founderhood platform">
+    <meta name="author" content="Founderhood">
+    <title>Founderhood | Help center</title>
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="../../img/favicon.png">
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.css">
+    <!-- Libraries CSS -->
+    <link rel="stylesheet" type="text/css" href="../../css/docsearch.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="../../css/basic.css">
+    <link rel="stylesheet" type="text/css" href="../../css/custom.css">
+</head>
+<body class="d-flex flex-column h-100">
+
+    <nav class="navbar navbar-light bg-white pb-4">
+        <div class="container">
+            <a class="navbar-brand" href="../../index.html">
+                <img src="../../img/Founderhood_logo.png" alt="Founderhood logo" width="165" height="auto">
+                <span class="font-10">Help center</span>
+            </a>
+        </div>
+    </nav>
+
+    <section class="background-light py-6">
+        <div class="container-fluid">
+            <div class="container py-5">
+                <div class="col-12">
+                    <div class="col-12 col-lg-6" id="docsearch"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="my-5 py-5">
+        <div class="container">
+
+            <div class="col-12 col-lg-8"> 
+
+                <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                    <ol class="breadcrumb mb-4">
+                        <li class="breadcrumb-item"><a href="../../index.html">Homepage</a></li>
+                        <li class="breadcrumb-item"><a href="../../html/founders.html">Founders</a></li>
+                        <li class="breadcrumb-item"><a href="../../html/myPrograms.html">My Program</a></li>
+                    </ol>
+                </nav>
+
+                <div class="js-text-post mt-4 border-all-styled border-radius-small p-4 p-lg-5">
+                    <h1 class="h4 mb-4">Announcements</h1>
+                    <p>In <b>Announcements</b>, you can catch up with the latest news from the program.</p>
+                    <p><img src="../../img/startup_announcements.png" class="img-responsive"></p>
+                </div>
+            
+            </div>
+
+        </div>
+    </section>      
+
+    <footer class="footer mt-auto py-3 background-dark">
+        <ul class="nav justify-content-center mb-2">
+            <li class="nav-item"><a href="https://thefounderhood.com/" class="nav-link px-2 text-white">Website</a></li>
+            <li class="nav-item"><a href="https://thefounderhood.com/terms-of-use" class="nav-link px-2 text-white">Terms</a></li>
+            <li class="nav-item"><a href="https://thefounderhood.com/privacy-policy" class="nav-link px-2 text-white">Privacy</a></li>
+        </ul>
+        <p class="text-center font-09 text-white">© Founderhood</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="../../js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../js/docsearch.min.js"></script>
+    <script>
+        // Drift bot code
+        !function() {
+          var t = window.driftt = window.drift = window.driftt || [];
+          if (!t.init) {
+            if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+            t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+            t.factory = function(e) {
+              return function() {
+                var n = Array.prototype.slice.call(arguments);
+                return n.unshift(e), t.push(n), t;
+              };
+            }, t.methods.forEach(function(e) {
+              t[e] = t.factory(e);
+            }), t.load = function(t) {
+              var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+              o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+              var i = document.getElementsByTagName("script")[0];
+              i.parentNode.insertBefore(o, i);
+            };
+          }
+        }();
+        drift.SNIPPET_VERSION = '0.3.1';
+        drift.load('vnidhikwkxsy');
+
+        // Initiate docsearc
+        docsearch({
+            container: '#docsearch',
+            appId: '87EG9SFBQP',
+            apiKey: '24f9b746f66594fd70cc3434ae1c3dfc',
+            indexName: 'DocSearching',
+        });
+
+    </script>
+</body>
+
+</html>

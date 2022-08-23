@@ -155,7 +155,7 @@ h6,
     background-color: #ffd3d3;
 }
 
-.icon-wrapper {
+.icon-wrapper:not(#premium-only) {
     background-color: #ecf2ff;
     padding: .9rem;
     border-radius: 100%;
@@ -164,6 +164,13 @@ h6,
     font-size: 1.3rem;
     line-height: 1.2rem;
 }
+
+#premium-only {
+    background-color: #ecf2ff;
+    border-radius: 15px;
+    padding: 3px 10px 3px 10px; 
+}
+
 
 .sm-circle-content {
     width: 25px;
