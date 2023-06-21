@@ -100,6 +100,10 @@
 
         // Initiate docsearc
         docsearch({
+            transformItems(items) {
+                console.log(items)
+                return items
+            },
             container: '#docsearch',
             appId: '87EG9SFBQP',
             apiKey: '24f9b746f66594fd70cc3434ae1c3dfc',
