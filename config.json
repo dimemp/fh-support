@@ -1,6 +1,7 @@
 {
     "index_name": "DocSearching",
     "start_urls": ["https://support.thefounderhood.com/"],
+    "sitemap_url": "./sitemap.xml",
     "selectors": {
         "lvl0": {
             "selectors": "",
