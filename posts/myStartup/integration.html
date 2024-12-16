@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html class="h-100" lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Startup Perks page">
+    <meta name="description" content="Preview team members invite new ones startup page">
     <meta name="author" content="Founderhood">
     <title>Founderhood | Help center</title>
     <!-- Favicon-->
@@ -16,6 +17,7 @@
     <link rel="stylesheet" type="text/css" href="../../css/basic.css">
     <link rel="stylesheet" type="text/css" href="../../css/custom.css">
 </head>
+
 <body class="d-flex flex-column h-100">
 
     <nav class="navbar navbar-light bg-white pb-4">
@@ -40,30 +42,37 @@
     <section class="my-5 py-5">
         <div class="container">
 
-            <div class="col-12 col-lg-8"> 
+            <div class="col-12 col-lg-8">
 
                 <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
                     <ol class="breadcrumb mb-4">
                         <li class="breadcrumb-item"><a href="../../index.html">Homepage</a></li>
                         <li class="breadcrumb-item"><a href="../../html/founders.html">Founders</a></li>
-                        <li class="breadcrumb-item"><a href="../../html/myPrograms.html">Program Information</a></li>
+                        <li class="breadcrumb-item"><a href="../../html/myStartup.html">Startup Profile Information</a></li>
                     </ol>
                 </nav>
 
                 <div class="js-text-post mt-4 border-all-styled border-radius-small p-4 p-lg-5">
-                    <h1 class="h4 mb-4">Perks</h1>
+                    <h1 class="h4 mb-4">Integration</h1>
+                    <p>To set up app integrations, click on your startup avatar picture on the top right and then click the <b>Integrations</b> button. Click on it to view available integrations like <b>Slack</b> and <b>Google Calendar</b>.</p>
+                    <p><img src="../../img/startup_integration_1.png" class="img-responsive"></p>
+                    <p>To activate <b>Slack</b> integration, click the <b>Connect</b> button.</p>
+                    <p><img src="../../img/startup_integration_2.png" class="img-responsive"></p>
+                    <p>To successfully enable <b>Slack</b> integration, click the <b>Allow</b> button to authorize the connection with <b>Slack</b>. <b>Slack</b> integration lets you receive notifications from the programs you participate in, keeping you updated.</p>
+                    <p><img src="../../img/startup_integration_3.png" class="img-responsive"></p>
+                    <p>To activate the <b>Google Calendar</b> integration, click the <b>Connect</b> button.</p>
+                    <p><img src="../../img/startup_integration_4.png" class="img-responsive"></p>
                     <p>
-                        To access <b>Perks</b>, navigate to the Resources section.
-                        Under <b>Resources</b>, select the <b>Perks</b> tab to view all perks provided by the program you are taking part in.
+                        To successfully enable <b>Google Calendar</b> integration, select the access Founderhood should have in order to authorize the connection with your <b>Google Calendar</b>.
+                        <b>Google Calendar</b> integration lets you link your calendar for real time availability, meeting synchronization and event notifications.
                     </p>
-                    <p>To select a perk provided, just click on the <b>Learn more</b> button.</p>
-                    <p><img src="../../img/startup_perks.png" class="img-responsive"></p>
+                    <p><img src="../../img/startup_integration_5.png" class="img-responsive"></p>
                 </div>
-            
+
             </div>
 
         </div>
-    </section>      
+    </section>
 
     <footer class="footer mt-auto py-3 background-dark">
         <ul class="nav justify-content-center mb-2">
@@ -79,25 +88,27 @@
     <script type="text/javascript" src="../../js/docsearch.min.js"></script>
     <script>
         // Drift bot code
-        !function() {
-          var t = window.driftt = window.drift = window.driftt || [];
-          if (!t.init) {
-            if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
-            t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
-            t.factory = function(e) {
-              return function() {
-                var n = Array.prototype.slice.call(arguments);
-                return n.unshift(e), t.push(n), t;
-              };
-            }, t.methods.forEach(function(e) {
-              t[e] = t.factory(e);
-            }), t.load = function(t) {
-              var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
-              o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
-              var i = document.getElementsByTagName("script")[0];
-              i.parentNode.insertBefore(o, i);
-            };
-          }
+        ! function() {
+            var t = window.driftt = window.drift = window.driftt || [];
+            if (!t.init) {
+                if (t.invoked) return void(window.console && console.error && console.error("Drift snippet included twice."));
+                t.invoked = !0, t.methods = ["identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on"],
+                    t.factory = function(e) {
+                        return function() {
+                            var n = Array.prototype.slice.call(arguments);
+                            return n.unshift(e), t.push(n), t;
+                        };
+                    }, t.methods.forEach(function(e) {
+                        t[e] = t.factory(e);
+                    }), t.load = function(t) {
+                        var e = 3e5,
+                            n = Math.ceil(new Date() / e) * e,
+                            o = document.createElement("script");
+                        o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+                        var i = document.getElementsByTagName("script")[0];
+                        i.parentNode.insertBefore(o, i);
+                    };
+            }
         }();
         drift.SNIPPET_VERSION = '0.3.1';
         drift.load('vnidhikwkxsy');
@@ -109,7 +120,6 @@
             apiKey: '24f9b746f66594fd70cc3434ae1c3dfc',
             indexName: 'DocSearching',
         });
-
     </script>
 </body>
 
